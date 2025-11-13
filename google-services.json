@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1053064804192",
+    "project_id": "edgeviewer-63ebd",
+    "storage_bucket": "edgeviewer-63ebd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053064804192:android:f34b4cd383ea99b1355005",
+        "android_client_info": {
+          "package_name": "com.example.edgeviewer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxmrFibErgOhEYVBDRY83BWEYI9Q7jUoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
