@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Edge Viewer Web Debug</title>
+    <style>
+        body {
+            background: #111;
+            color: #eee;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        img {
+            border: 2px solid #444;
+            width: 480px;
+            height: auto;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Edge Viewer Web Debug</h1>
+
+<!-- static sample image from processed frame -->
+<img id="frame" src="sample.png" alt="Processed frame" />
+
+<div>
+    <span>FPS:</span> <span id="fps">12</span> |
+    <span>Resolution:</span> <span id="res">640x480</span>
+</div>
+
+<script type="module" src="./dist/index.js"></script>
+
+</body>
+</html>
